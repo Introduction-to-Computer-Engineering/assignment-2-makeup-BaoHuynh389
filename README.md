@@ -83,10 +83,28 @@ This assignment asks you to go complete the Final Project for the [Intro to CS c
 ### Description
 
 #### Goal
-TODO
+make LED 5x5 display the string by using JS. 
 
 #### Design process
-TODO
+- use makecode ad microbit
+- make a class and the construction
+- initialize the object and use method to descirp the string of the object
+- resolve the error runtime
 
 #### JS Constructs & objects
-TODO
+- Objects in JavaScript: 
+   A JavaScript object has properties associated with it. 
+   A property of an object can be explained as a variable that is attached to the object. 
+   Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. 
+   The properties of an object define the characteristics of the object. 
+   You access the properties of an object with a simple dot-notation:
+         objectName.propertyName
+- constructor in JS: 
+   The constructor method is a special method for creating and initializing an object created within a class.
+      constructor([arguments]) { ... }
+      
+    There can be only one special method with the name "constructor" in a class. Having more than one occurrence of a constructor method in a class will throw a SyntaxError error.
+
+A constructor can use the super keyword to call the constructor of a parent class.
+
+If you do not specify a constructor method, a default constructor is used.
